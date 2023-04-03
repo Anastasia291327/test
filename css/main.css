@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.conteinerFirst {
+    display: flex;
+    justify-content: flex-start;
+    width: 1000px;
+    margin-top: 10px;
+}
+
+.userFirst {
+    width: 15%;
+    justify-content: center;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+}
+
+.userFirst__text {
+    font-size: 12px;
+}
+
+.imageFirst {
+    width: 10%;
+    text-align: start;
+}
+
+.massageFirst {
+    background-color: rgb(238, 131, 197);
+    width: 50%;
+    border-radius: 20px 20px 20px 0;
+}
+
+.massageFirst__text {
+    padding: 15px;
+}
+
+.empty {
+    width: 25%;
+    content: none;
+}  
+
+.conteinerSecond {
+    display: flex;
+    justify-content: flex-start;
+    width: 1000px;
+    margin-top: 10px;
+}
+
+.userSecond {
+    width: 15%;
+    justify-content: center;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+.userSecond__text {
+    font-size: 12px;
+}
+
+.imageSecond {
+    width: 10%;
+    text-align: end;
+}
+
+.massageSecond {
+    background-color: rgb(88, 162, 247);
+    width: 50%;
+    border-radius: 20px 20px 0 20px;
+}
+
+.massageSecond__text {
+    padding: 15px;
+}
